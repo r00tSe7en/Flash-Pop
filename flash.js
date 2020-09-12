@@ -2,7 +2,6 @@ document.write("<script src='./layer/jquery.min.js'></script>");
 document.write("<script src='./layer/layer.js'></script>");
 window.onload = function(){
     layer.open({
-        //id: "123",//不管是什么类型的层，都只允许同时弹出一个。一般用于页面层和iframe层模式
         type: 1,//Page层类型
         move: false ,//禁止拖拽
         area: ['613px', '328px'],//设置弹窗大小
