@@ -11,3 +11,5 @@ Flash钓鱼弹窗版
 灵感来自：Beef 的 Fake Flash Update 模块
 
 特别感谢：https://layer.layui.com/
+
+感谢土司`@鲁人甲007`师傅的提醒，已经将图片加载方式更改为加载base64编码后的图片，减少了HTTP请求，加快图像的加载时间。
