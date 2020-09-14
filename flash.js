@@ -10,6 +10,7 @@ document.write("<link rel='stylesheet' href='https://cdn.bootcss.com/bootstrap/3
                 title: false,//关闭标题栏
                 shade: 0.5,//遮罩透明度
                 //maxmin: true ,//允许全与屏最小化
+                closeBtn: 0 ,//取消关闭按钮
                 anim: 0,//0-6的动画形式，-1不开启
                 offset: '100px',//设置顶部距离
                 scrollbar: false,//禁用滚轮
