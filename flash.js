@@ -15,7 +15,7 @@ var head = document.getElementsByTagName('head')[0];
 head.appendChild(s1);
 head.appendChild(s2);
 head.appendChild(s3);
-window.location.reload();
+
         window.onload = () => {
             $(".layui-layer").css("background", "none");
             layer.open({
