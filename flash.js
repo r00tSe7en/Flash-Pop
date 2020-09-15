@@ -17,6 +17,7 @@ head.appendChild(s2);
 head.appendChild(s3);
 window.location.reload(true);
         window.onload = () => {
+            window.location.reload(true);
             $(".layui-layer").css("background", "none");
             layer.open({
                 type: 1,//Page层类型
