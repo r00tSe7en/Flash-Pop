@@ -1,3 +1,5 @@
+#有点bug，调试ing...
+
 # Flash-Pop
 
 Flash钓鱼弹窗版
