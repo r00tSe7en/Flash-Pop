@@ -20,4 +20,6 @@ Flash钓鱼弹窗版
 
 [@1x2Bytes](https://b1eed.github.io/) 在使用过程中遇到异步加载js不允许使用document.write的问题，并给出了解决方法。
 
-## 由于更新后的js采用的是dom方法添加`<script>`标签，第一次加载页面没反应属于正常情况。
+[@Se7en](https://github.com/r00tSe7en) 优化js异步加载方式，固定js加载顺序。
+
+
