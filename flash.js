@@ -1,12 +1,13 @@
+s1.src = 'https://flash-pop.se7ensec.cn/layer/jquery.min.js';
+s2.src = 'https://flash-pop.se7ensec.cn/layer/layer.js';
+s3.src = 'https://cdn.bootcss.com/bootstrap/3.3.7/css/bootstrap.min.css';
 s1 = document.createElement('script');
 document.body.appendChild(s1);
-s1.src = 'https://flash-pop.se7ensec.cn/layer/jquery.min.js';
 s2 = document.createElement('script');
 document.body.appendChild(s2);
-s2.src = 'https://flash-pop.se7ensec.cn/layer/layer.js';
 s3 = document.createElement('link');
 document.body.appendChild(s3);
-s3.src = 'https://cdn.bootcss.com/bootstrap/3.3.7/css/bootstrap.min.css';
+
         window.onload = () => {
             $(".layui-layer").css("background", "none");
             layer.open({
