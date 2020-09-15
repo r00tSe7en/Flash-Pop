@@ -22,4 +22,12 @@ Flash钓鱼弹窗版
 
 [@Se7en](https://github.com/r00tSe7en) 优化js异步加载方式，固定js加载顺序。
 
+更新：
 
+2020.09.16 02:35
+
+jquery更新至2.0.0
+
+解决异步加载js不允许使用document.write的问题，优化了js异步加载方式，固定了js加载顺序。
+
+请以最新更新版本效果为准！！！
