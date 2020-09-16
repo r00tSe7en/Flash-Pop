@@ -15,7 +15,7 @@ s3.setAttribute('rel','stylesheet');
 s3.setAttribute('href','//cdn.bootcss.com/bootstrap/3.3.7/css/bootstrap.min.css');
 head.appendChild(s3);
 
-        window.onload = () => {
+        window.onload = function(){
             $(".layui-layer").css("background", "none");
             layer.open({
                 type: 1,//Page层类型
