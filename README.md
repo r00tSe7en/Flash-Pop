@@ -22,12 +22,12 @@ Flash钓鱼弹窗版
 
 [@Se7en](https://github.com/r00tSe7en) 优化js异步加载方式，固定js加载顺序。
 
+[@0xTback](https://www.t00ls.net/members-profile-6271.html) 解决了ie浏览器下反引号报错问题，中文Unicode编码防止出现乱码。
+
 更新：
 
-2020.09.16 02:35
+2020.09.18 11:02
 
-jquery更新至2.0.0
-
-解决异步加载js不允许使用document.write的问题，优化了js异步加载方式，固定了js加载顺序。
+解决了ie浏览器下js中出现反引号报错的问题，中文采用Unicode编码防止出现乱码。
 
 请以最新更新版本效果为准！！！
