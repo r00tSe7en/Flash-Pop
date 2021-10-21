@@ -4,7 +4,7 @@ Flash钓鱼弹窗版
 
 ![](https://raw.githubusercontent.com/r00tSe7en/pictures/master/flashpop.png)
 
-~~已停止在线预览：https://flash-pop.se7ensec.cn/~~
+~~防止滥用已停止在线预览：https://flash-pop.se7ensec.cn/ 请自行修改js文件中的链接地址~~
 
 
 
