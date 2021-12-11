@@ -31,3 +31,5 @@ Flash钓鱼弹窗版
 解决了ie浏览器下js中出现反引号报错的问题，中文采用Unicode编码防止出现乱码。
 
 请以最新更新版本效果为准！！！
+
+![as](https://starchart.cc/r00tSe7en/Flash-Pop.svg)
