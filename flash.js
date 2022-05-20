@@ -1,12 +1,12 @@
 var s1 = document.createElement('script');
 s1.setAttribute('type','text/javascript');
-s1.setAttribute('src','//cdn.bootcdn.net/ajax/libs/jquery/2.0.0/jquery.min.js');
+s1.setAttribute('src','//cdnjs.cloudflare.com/ajax/libs/jquery/2.0.0/jquery.min.js');
 var head = document.getElementsByTagName('head')[0];
 head.appendChild(s1);
 s1.onload = function(){
     var s2 = document.createElement('script');
     s2.setAttribute('type','text/javascript');
-    s2.setAttribute('src','//cdn.bootcdn.net/ajax/libs/layer/3.1.1/layer.js');
+    s2.setAttribute('src','//cdnjs.cloudflare.com/ajax/libs/layer/3.1.1/layer.js');
     head.appendChild(s2);
 }
 var s3 = document.createElement('link');
